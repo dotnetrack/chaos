@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rack.Chaos", "Rack.Chaos\Rack.Chaos.csproj", "{ED513946-9324-427C-92CF-2495E1D55D6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rack.Chaos.Tests", "Rack.Chaos.Tests\Rack.Chaos.Tests.csproj", "{CFD9841B-A7C8-45C6-B0CD-AC5E67A92A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED513946-9324-427C-92CF-2495E1D55D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED513946-9324-427C-92CF-2495E1D55D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED513946-9324-427C-92CF-2495E1D55D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED513946-9324-427C-92CF-2495E1D55D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD9841B-A7C8-45C6-B0CD-AC5E67A92A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD9841B-A7C8-45C6-B0CD-AC5E67A92A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD9841B-A7C8-45C6-B0CD-AC5E67A92A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD9841B-A7C8-45C6-B0CD-AC5E67A92A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

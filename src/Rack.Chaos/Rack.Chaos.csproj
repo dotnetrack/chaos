@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>Rack</Company>
+    <Product>Chaos</Product>
+    <Authors>Ben Amodio</Authors>
+    <Description>Easily inject chaos (failures, delays) during development and testing of your application or library</Description>
+    <Copyright>Copyright ©2017 Ben Amodio</Copyright>
+    <Version>1.0.0-alpha</Version>
+    <PackageId>Rack.Chaos</PackageId>
+    <PackageTags>chaos monkey</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/dotnetrack/chaos/master/nuget/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/dotnetrack/chaos</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/dotnetrack/chaos/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/dotnetrack/chaos</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.0.0-beta07" />
+  </ItemGroup>
+
+</Project>
