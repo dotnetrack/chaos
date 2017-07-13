@@ -23,8 +23,12 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="NLog" Version="5.0.0-beta07" />
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
+    <PackageReference Condition="" Include="NLog" Version="5.0.0-beta07" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
+    <PackageReference Condition="" Include="NLog" Version="4.4.11" />
   </ItemGroup>
 
 </Project>

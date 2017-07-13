@@ -28,7 +28,7 @@ namespace Rack.Chaos.Tests
         }
 
         [Test]
-        public async Task ChaosMonkeyShouldThrowOnExpectedChaos()
+        public async Task ShouldThrowOnExpectedChaos()
         {
             ChaosScenario noChaos = new ChaosScenario("No Chaos", failureRate: 0.0);
             ChaosScenario fullChaos = new ChaosScenario("Full Chaos", failureRate: 1.0);
@@ -42,7 +42,7 @@ namespace Rack.Chaos.Tests
         }
 
         [Test]
-        public async Task ChaosMonkeyShouldDelayOnChaos()
+        public async Task ShouldDelayOnChaos()
         {
             ChaosScenario noChaos = new ChaosScenario("No Chaos", failureRate: 0.0);
             ChaosScenario delayChaos = new ChaosScenario("Full Chaos", delay: 10);
@@ -69,7 +69,7 @@ namespace Rack.Chaos.Tests
         }
 
         [Test]
-        public async Task ChaosMonkeyShouldNotThrowOrDelayWhenNotEnabled()
+        public async Task ShouldNotThrowOrDelayWhenNotEnabled()
         {
             // Disable the monkey, it will be restored to its original state no matter what in TearDown.
             ChaosMonkey.IsEnabled = false;
